@@ -7,6 +7,9 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    // https://www.typescriptlang.org/docs/handbook/compiler-options.html
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,

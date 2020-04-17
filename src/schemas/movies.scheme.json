@@ -1,0 +1,76 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The Root Schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "additionalProperties": true,
+        "required": [
+            "id",
+            "title",
+            "description",
+            "thumbUrl",
+            "movieUrl"
+        ],
+        "properties": {
+            "id": {
+                "$id": "#/items/properties/id",
+                "type": "string",
+                "title": "The Id Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "945bbed5-aebe-5ada-829d-2a985ce2e95f"
+                ]
+            },
+            "title": {
+                "$id": "#/items/properties/title",
+                "type": "string",
+                "title": "The Title Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "ex quis et irure aliquip"
+                ]
+            },
+            "description": {
+                "$id": "#/items/properties/description",
+                "type": "string",
+                "title": "The Description Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "Zasik joeh catiwu foedare hoju bufufo ugmibal ilwomip tenizte nezsi ihomod bibumof kak zilo fit ga disodabif."
+                ]
+            },
+            "thumbUrl": {
+                "$id": "#/items/properties/thumbUrl",
+                "type": "string",
+                "title": "The Thumb URL Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "https://picsum.photos/id/7/300/150/"
+                ]
+            },
+            "movieUrl": {
+                "$id": "#/items/properties/movieUrl",
+                "type": "string",
+                "title": "The Movie URL Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                    "https://www.youtube.com/watch?v=5cztb819wf"
+                ]
+            }
+        }
+    }
+}
