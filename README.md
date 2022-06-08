@@ -8,4 +8,4 @@
 * Ajv
 * <https://json-schema-faker.js.org/>
 * <https://www.jsonschema.net/>
-* Scheme: Movies — <https://gist.github.com/piecioshka/255e557aa7a8f60a555839224bb7baa0>
+* Scheme: Videos — <https://github.com/piecioshka/fakes/>
