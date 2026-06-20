@@ -9,3 +9,7 @@
 * <https://json-schema-faker.js.org/>
 * <https://www.jsonschema.net/>
 * Scheme: Videos — <https://github.com/piecioshka/fakes/>
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
